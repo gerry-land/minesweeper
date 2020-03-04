@@ -1,0 +1,14 @@
+.game-wrapper {
+  background: lightgray;
+  width: 80%;
+  height: 85vh;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 ;
+  margin: 7vh auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}

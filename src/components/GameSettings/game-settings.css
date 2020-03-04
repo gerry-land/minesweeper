@@ -1,0 +1,31 @@
+.game-settings { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 25%;
+  margin: 0 40% 0 35%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.row:hover {
+  font-weight: bold;
+}
+
+.radio, .label {
+  cursor: pointer;
+}
+
+.radio:checked + .label {
+  font-weight: bold;
+}
+
+.disabled:hover {
+  font-weight: normal;
+}
